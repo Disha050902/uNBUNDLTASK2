@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url("B.jpg");
+}
+
+.custom-pack-container {
+    
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgb(255, 0, 149);
+
+}
+
+.chocolates {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color:rgb(50, 14, 22);
+}
+
+.chocolate {
+    border: 1px solid #631010;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.selected-chocolates {
+    text-align: left;
+}
+
+.total-price {
+    font-weight: bold;
+}
